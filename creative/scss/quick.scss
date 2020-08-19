@@ -1,0 +1,58 @@
+.quick {
+   background-color: #11749e;
+   padding: 130px 0;
+
+   &__all {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (min-width: 768px) and (max-width: 991.98px) { 
+       flex-direction: column;  
+       
+      }
+
+      @media (min-width: 576px) and (max-width: 767.98px) {
+         flex-direction: column;
+       }
+
+       @media (max-width: 575.98px) { 
+         flex-direction: column;
+       }
+     
+   }
+
+   &__action {
+      display: flex;
+      align-items: center;
+      @media (min-width: 768px) and (max-width: 991.98px) { 
+       padding-top: 50px;  
+      }
+
+      @media (min-width: 576px) and (max-width: 767.98px) {
+         padding-top: 50px;
+       }
+
+       @media (max-width: 575.98px) { 
+         padding-top: 50px;
+         flex-direction: column;
+         justify-content: center;
+
+         img {
+            margin-right: 30px;
+            padding-bottom: 20px;
+         }
+       }
+   
+   }
+
+
+   &__subtitle {
+      color: #ffffff;
+      font-family: 'Gotham-Book';
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+padding: 0 30px;
+   }
+}
+

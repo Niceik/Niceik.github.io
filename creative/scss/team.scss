@@ -1,0 +1,139 @@
+.team {
+   padding: 64px 0;
+
+   &__all {
+      
+   }
+
+   &__description {
+      text-align: center;
+   }
+
+   &__bg {
+      opacity: 0.18;
+color: #222222;
+font-family: 'RobotoCondensed-Bold';
+font-size: 247px;
+font-weight: 700;
+line-height: 210.64px;
+text-transform: uppercase;
+   }
+
+   &__title {
+      color: #222222;
+      font-family: 'Gotham-Medium';
+font-size: 38px;
+font-weight: 500;
+line-height: 45.06px;
+text-transform: uppercase;
+position: relative;
+bottom: 130px;
+   }
+
+   &__subtitle {
+color: #222222;
+font-family: 'Gotham-Book';
+font-size: 30px;
+font-weight: 400;
+line-height: 37px;
+
+@media (max-width: 575.98px) { 
+        padding: 0 20px;
+        font-size: 20px;
+}
+   }
+
+   &__prof {
+      display: flex;
+      padding-top: 69px;
+
+      @media (min-width: 768px) and (max-width: 991.98px) { 
+       flex-direction: column;  
+      }
+
+      @media (min-width: 576px) and (max-width: 767.98px) {
+         flex-direction: column;
+       }
+
+       @media (max-width: 575.98px) { 
+        flex-direction: column;
+       }
+   }
+
+   &__personal {
+      padding-right: 30px;
+      text-align: center;
+      @media (min-width: 1200px) { 
+         padding-right: 25px;
+       }
+
+       @media (max-width: 575.98px) { 
+        padding: 0;
+      }
+
+       
+   }
+}
+
+.personal {
+
+   &__about {
+      width: 216px;
+      height: 117px;
+      background-color: #ffffff;
+      position: relative;
+      bottom: 40px;
+      left: 25px;
+
+      @media (min-width: 992px) and (max-width: 1199.98px) { 
+         left: 0px;
+      }
+
+      @media (min-width: 768px) and (max-width: 991.98px) { 
+         left: 222px;
+      }
+
+      @media (min-width: 576px) and (max-width: 767.98px) {
+         left: 130px;
+       }
+
+       @media (max-width: 575.98px) { 
+         left: 50px; 
+      }
+   }
+
+   &__img {
+      @media (min-width: 992px) and (max-width: 1199.98px) { 
+         img {
+            width: 100%;
+         }
+      }
+
+      @media (min-width: 576px) and (max-width: 767.98px) {
+         img {
+            width: 100%;
+         }
+       }
+      
+   }
+
+   &__name {
+      color: #11749e;
+      font-family: 'Gotham-Medium';
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-transform: uppercase;
+
+
+   }
+
+   &__prof {
+      color: #000000;
+      font-family: 'Gotham-Medium';
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+
+   }
+}

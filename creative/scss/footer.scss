@@ -1,0 +1,15 @@
+.footer {
+   background-color: #222222;
+   padding: 30px 0;
+
+   &__copy {
+      text-align: center;
+      color: #ffffff;
+      font-family: 'RobotoCondensed-Bold';
+font-size: 13px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.26px;
+   }
+}
+
